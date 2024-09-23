@@ -13,5 +13,12 @@ document.querySelector('#menu-btn').onclick =() => {
 window.onscroll = () =>{
     navbar.classList.remove('active');
     searchForm.classList.remove('active');
+    userBox.classList.remove('active');
 }
 
+let userBox = document.querySelector('.header .account-box');
+document.querySelector('#user-btn').onclick = () =>{
+    userBox.classList.toggle('active'); 
+    navbar.classList.remove('active');
+
+}
