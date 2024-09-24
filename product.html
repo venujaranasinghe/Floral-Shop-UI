@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">
+        <a href="index.html" class="logo">
             <img src="logo1.png" alt="">
         </a>
 
@@ -24,12 +24,20 @@
         <div class="icons">
             <div class="fas fa-search" id="search-btn"></div>
             <div class="fas fa-bars" id="menu-btn"></div>
+            <div id="user-btn" class="fas fa-user"></div>
         </div>
 
         <div class="search-form">
             <input type="search" id="search-box" placeholder="seach here...">
             <label for="search-box" class="fas fa-search"></label>
         </div>
+
+        <div class="account-box">
+            <p>username : <span>admin name</span></p>
+            <p>email : <span>admin email</span></p>
+            <a href="logout.html" class="delete-btn">logout</a>
+            <div>new <a href="login.html" class="btn">login</a> | <a href="register.html" class="btn">register</a> </div>
+         </div>
     </header>
 
     <section class="add-products">
@@ -124,5 +132,23 @@
         </div>
      </section>
 
+     <section class="footer">
+        <div class="social">
+           <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+           <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+           <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+           <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+  
+        <ul class="list">
+           <li><a href="index.html">Home</a></li>
+           <li><a href="product.html">Products</a></li>
+           <li><a href="#">Orders</a></li>
+           <li><a href="#">Users</a></li>
+           <li><a href="#">Messages</a></li>
+        </ul>
+        <p class="copyright">B Developers @ 2024</p>
+       </section>
+     <script src="script.js"></script>
 </body>
 </html>
