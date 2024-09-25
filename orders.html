@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="logo1.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="product.html">products</a>
+            <a href="orders.html">orders</a>
+            <a href="users.html">users</a>
+            <a href="#messages">messages</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="seach here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="account-box">
+            <p>username : <span>admin name</span></p>
+            <p>email : <span>admin email</span></p>
+            <a href="logout.html" class="delete-btn">logout</a>
+            <div>new <a href="login.html" class="btn">login</a> | <a href="register.html" class="btn">register</a> </div>
+         </div>
+    </header>
+
+   <section class="placed-orders">
+   <h1 class="title">placed orders</h1>
+   <div class="box-container">
+      <div class="box">
+         <p> user id : <span>0001</span> </p>
+         <p> placed on : <span>20/09/24</span> </p>
+         <p> name : <span>Vinuki Thiranya</span> </p>
+         <p> number : <span>0773546738</span> </p>
+         <p> email : <span>vinuki@gmail.com</span> </p>
+         <p> address : <span>No 123 Dompe</span> </p>
+         <p> total products : <span>2</span> </p>
+         <p> total price : <span>Rs.4000/-</span> </p>
+         <p> payment method : <span>Cash on Delivery</span> </p>
+         <form action="" method="post">
+            <input type="hidden" name="order_id" value="">
+            <select name="update_payment">
+               <option disabled selected>payment status</option>
+               <option value="pending">pending</option>
+               <option value="completed">completed</option>
+            </select>
+            <input type="submit" name="update_order" value="update" class="option-btn">
+            <a href="" class="delete-btn" onclick="return confirm('delete this order?');">delete</a>
+         </form>
+      </div>
+
+      <div class="box">
+        <p> user id : <span>0001</span> </p>
+        <p> placed on : <span>20/09/24</span> </p>
+        <p> name : <span>Vinuki Thiranya</span> </p>
+        <p> number : <span>0773546738</span> </p>
+        <p> email : <span>vinuki@gmail.com</span> </p>
+        <p> address : <span>No 123 Dompe</span> </p>
+        <p> total products : <span>2</span> </p>
+        <p> total price : <span>Rs.4000/-</span> </p>
+        <p> payment method : <span>Cash on Delivery</span> </p>
+        <form action="" method="post">
+           <input type="hidden" name="order_id" value="">
+           <select name="update_payment">
+              <option disabled selected>payment status</option>
+              <option value="pending">pending</option>
+              <option value="completed">completed</option>
+           </select>
+           <input type="submit" name="update_order" value="update" class="option-btn">
+           <a href="" class="delete-btn" onclick="return confirm('delete this order?');">delete</a>
+        </form>
+     </div>
+
+     <div class="box">
+        <p> user id : <span>0001</span> </p>
+        <p> placed on : <span>20/09/24</span> </p>
+        <p> name : <span>Vinuki Thiranya</span> </p>
+        <p> number : <span>0773546738</span> </p>
+        <p> email : <span>vinuki@gmail.com</span> </p>
+        <p> address : <span>No 123 Dompe</span> </p>
+        <p> total products : <span>2</span> </p>
+        <p> total price : <span>Rs.4000/-</span> </p>
+        <p> payment method : <span>Cash on Delivery</span> </p>
+        <form action="" method="post">
+           <input type="hidden" name="order_id" value="">
+           <select name="update_payment">
+              <option disabled selected>payment status</option>
+              <option value="pending">pending</option>
+              <option value="completed">completed</option>
+           </select>
+           <input type="submit" name="update_order" value="update" class="option-btn">
+           <a href="" class="delete-btn" onclick="return confirm('delete this order?');">delete</a>
+        </form>
+     </div>
+
+     <div class="box">
+        <p> user id : <span>0001</span> </p>
+        <p> placed on : <span>20/09/24</span> </p>
+        <p> name : <span>Vinuki Thiranya</span> </p>
+        <p> number : <span>0773546738</span> </p>
+        <p> email : <span>vinuki@gmail.com</span> </p>
+        <p> address : <span>No 123 Dompe</span> </p>
+        <p> total products : <span>2</span> </p>
+        <p> total price : <span>Rs.4000/-</span> </p>
+        <p> payment method : <span>Cash on Delivery</span> </p>
+        <form action="" method="post">
+           <input type="hidden" name="order_id" value="">
+           <select name="update_payment">
+              <option disabled selected>payment status</option>
+              <option value="pending">pending</option>
+              <option value="completed">completed</option>
+           </select>
+           <input type="submit" name="update_order" value="update" class="option-btn">
+           <a href="" class="delete-btn" onclick="return confirm('delete this order?');">delete</a>
+        </form>
+     </div>
+   </div>
+
+   
+   
+</section>
+
+<section class="footer">
+    <div class="social">
+       <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+       <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+       <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+       <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+
+    <ul class="list">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="product.html">Products</a></li>
+       <li><a href="orders.html">Orders</a></li>
+       <li><a href="users.html">Users</a></li>
+       <li><a href="#">Messages</a></li>
+    </ul>
+    <p class="copyright">© 2024 Dogwood, All rights reserved. Powered by B-People Developers</p>
+   </section>
+<script src="script.js"></script>
+</body>
+</html>
