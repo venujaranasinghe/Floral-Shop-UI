@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Update Event</title>
+</head>
+<body>
+    <section class="update-event">
+        <h1 class="title">Update Event</h1>
+        <form action="" method="post" enctype="multipart/form-data">
+            <img src="1.jpg" class="image"  alt="">
+            <input type="hidden" value="" name="update_p_id">
+            <input type="hidden" value="" name="update_p_image">
+            <input type="text" class="box" value="" required placeholder="update event name" name="name">
+            <!--<input type="number" min="0" class="box" value="" required placeholder="update product price" name="price">-->
+            <textarea name="details" class="box" required placeholder="update event details" cols="30" rows="10">details</textarea>
+            <input type="file" accept="image/jpg, image/jpeg, image/png" class="box" name="image">
+            <input type="submit" value="update event" name="update_event" class="btn">
+            <a href="event.html" class="option-btn">go back</a>
+         </form>
+    </section>
+</body>
+</html>
