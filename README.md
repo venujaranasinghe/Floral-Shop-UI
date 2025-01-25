@@ -64,7 +64,7 @@ This project can be deployed to any static hosting platform such as:
 Your feedback is important! Feel free to share your suggestions or report issues by opening an issue in this repository.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+Pending...
 
 ---
 
